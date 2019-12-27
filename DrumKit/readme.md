@@ -26,9 +26,9 @@ Vanilla JS ES6 and CSS
 
 ## Things learned working on this little project
 
-* _Learned a new html tag <kbd> that defines a keyboard input. The tag is used when it is needed to display text that the user should enter into their keyboard (for any number of reasons)._
+* _Learned a new html tag (kbd) that defines a keyboard input. The tag is used when it is needed to display text that the user should enter into their keyboard (for any number of reasons)._
 
-* _Learned a new html tag <audio>, is an inline element used to embed sound files into a web page. It is useful when you want to add any audio, such as a song._
+* _Learned a new html tag (audio) is an inline element used to embed sound files into a web page. It is useful when you want to add any audio, such as a song._
 
 * _I refreshed my memory using transitions and transforms._
 
