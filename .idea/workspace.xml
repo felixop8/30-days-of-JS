@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8584dea-75ae-4e22-9f35-cb67bf8cef03" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Clock/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Clock/.idea/Clock.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaScriptDrumKit.css" beforeDir="false" afterPath="$PROJECT_DIR$/javaScriptDrumKit.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaScriptDrumKit.js" beforeDir="false" afterPath="$PROJECT_DIR$/javaScriptDrumKit.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,6 +50,8 @@
       <option name="presentableId" value="Default" />
       <updated>1577295745883</updated>
       <workItem from="1577295747782" duration="11773000" />
+      <workItem from="1577406386305" duration="1806000" />
+      <workItem from="1577482788684" duration="3873000" />
     </task>
     <servers />
   </component>
@@ -62,7 +63,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
