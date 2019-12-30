@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d8584dea-75ae-4e22-9f35-cb67bf8cef03" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/CssVariables/CssVariables.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CssVariables/CssVariables.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CssVariables/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CssVariables/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="d8584dea-75ae-4e22-9f35-cb67bf8cef03" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +52,7 @@
       <workItem from="1577406386305" duration="1806000" />
       <workItem from="1577482788684" duration="3982000" />
       <workItem from="1577488387235" duration="366000" />
-      <workItem from="1577570659968" duration="3809000" />
+      <workItem from="1577570659968" duration="3959000" />
     </task>
     <servers />
   </component>
