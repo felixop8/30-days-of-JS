@@ -16,28 +16,29 @@ const inventors = [
 const people = ['Beck, Glenn', 'Becker, Carl', 'Beckett, Samuel', 'Beddoes, Mick', 'Beecher, Henry', 'Beethoven, Ludwig', 'Begin, Menachem', 'Belloc, Hilaire', 'Bellow, Saul', 'Benchley, Robert', 'Benenson, Peter', 'Ben-Gurion, David', 'Benjamin, Walter', 'Benn, Tony', 'Bennington, Chester', 'Benson, Leana', 'Bent, Silas', 'Bentsen, Lloyd', 'Berger, Ric', 'Bergman, Ingmar', 'Berio, Luciano', 'Berle, Milton', 'Berlin, Irving', 'Berne, Eric', 'Bernhard, Sandra', 'Berra, Yogi', 'Berry, Halle', 'Berry, Wendell', 'Bethea, Erin', 'Bevan, Aneurin', 'Bevel, Ken', 'Biden, Joseph', 'Bierce, Ambrose', 'Biko, Steve', 'Billings, Josh', 'Biondo, Frank', 'Birrell, Augustine', 'Black, Elk', 'Blair, Robert', 'Blair, Tony', 'Blake, William'];
 
 // Array.prototype.filter()
-// 1. Filter the list of inventors for those who were born in the 1500's
+// The filter() method creates a new array with all elements that pass the test implemented by the provided function.
 console.log('1. Filter the list of inventors for those who were born in the 1500\'s');
 console.log(inventors.filter(inventor => inventor.year >= 1500 && inventor.year < 1600));
 
 // Array.prototype.map()
-// 2. Give us an array of the inventors' first and last names
+// The map() method creates a new array populated with the results of calling a provided function on every element in the calling array.
 console.log('2. Give us an array of the inventors first and last names');
 console.log(inventors.map(inventor => (`${inventor.first} ${inventor.last}`)));
 
 // Array.prototype.sort()
-// 3. Sort the inventors by birthDate, oldest to youngest
+// The sort() method sorts the elements of an array in place and returns the sorted array. The default sort order is ascending
 console.log('3. Sort the inventors by birthDate, oldest to youngest');
 console.log(inventors.sort((a, b) => a.year - b.year));
 
 // Array.prototype.reduce()
-// 4. How many years did all the inventors live?
+// The reduce() method executes a reducer function (that you provide) on each element of the array, resulting in a single output value.
+// The reducer is a pure function that takes the previous state and an action, and returns the next state.
 console.log('4. How many years did all the inventors live?');
 console.log(inventors.reduce((total, inventor) => {
   return total + (inventor.passed - inventor.year);
 }, 0));
 
-// 5. Sort the inventors by years lived
+
 console.log('5. Sort the inventors by years lived');
 console.log(inventors.sort((a, b) => (a.passed - a.year) - (b.passed - b.year)));
 
@@ -49,7 +50,7 @@ console.log(inventors.sort((a, b) => (a.passed - a.year) - (b.passed - b.year)))
 //   .filter(name => name.includes('de'))
 // );
 
-// 7. sort Exercise
+
 // Sort the people alphabetically by last name
 console.log('7. Sort the people alphabetically by last name');
 
@@ -60,7 +61,6 @@ console.log('7. Sort the people alphabetically by last name');
    return aLast > bLast ? 1 : -1;
  }));
 
-// 8. Reduce Exercise
 // Sum up the instances of each of these
 const data = ['car', 'car', 'truck', 'truck', 'bike', 'walk', 'car', 'van', 'bike', 'walk', 'car', 'van', 'car', 'truck' ];
 console.log('8. Sum up the instances of each of these');
